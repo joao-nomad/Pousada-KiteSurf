@@ -7,30 +7,30 @@
         resources: { // evtl. load via xhr https://github.com/i18next/i18next-xhr-backend
           en: {
             translation: {
-              nav: {
-                home: 'Home',
-                page1: 'Page One',
-                page2: 'Page Two'
+              introDiv: {
+                head: 'Pousada Cumbuco KitSurf',
+                desc: 'Meet our hostel',
+                button: 'Page Two'
               }
             }
           },
 
           pt: {
             translation: {
-              nav: {
-                home: 'Inicial',
-                page1: 'Página um',
-                page2: 'Página dois'
+              introDiv: {
+                head: 'Pousada Cumbuco KitSurf',
+                desc: 'Conheça a nossa pousada',
+                button: 'Faça um tour'
               }
             }
           },
 
           es: {
             translation: {
-              nav: {
-                home: 'Inicial',
-                page1: 'Página uno',
-                page2: 'Página dos'
+              introDiv: {
+                head: 'Pousada Cumbuco KitSurf',
+                desc: 'Conoce a nuestro posada',
+                button: 'Página dos'
               }
             }
           }
@@ -42,5 +42,6 @@
 
         // start localizing, details:
         // https://github.com/i18next/jquery-i18next#usage-of-selector-function
-        $('.nav').localize();
+        //$('.nav').localize();
+        $('body').localize();
       });
