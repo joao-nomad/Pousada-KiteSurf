@@ -9,7 +9,7 @@
           en: {
             translation: {
               introDiv: {
-                head: 'Cumbuco KitSurf Hostel',
+                head: 'Cumbuco KiteSurf Hostel',
                 desc: 'Meet our hostel',
                 button: 'Take a tour'
               },
@@ -55,7 +55,7 @@
           pt: {
             translation: {
               introDiv: {
-                head: 'Pousada Cumbuco KitSurf',
+                head: 'Pousada Cumbuco KiteSurf',
                 desc: 'Conheça a nossa pousada',
                 button: 'Faça um tour'
               },
@@ -101,7 +101,7 @@
           es: {
             translation: {
               introDiv: {
-                head: 'Posada Cumbuco KitSurf',
+                head: 'Posada Cumbuco KiteSurf',
                 desc: 'Conoce a nuestro posada',
                 button: 'Tienes um tour'
               },              
@@ -119,7 +119,7 @@
               },
               about: {
                 head: 'Conoce a nuestro Posada',
-                text: 'La posada Cumbuco KitSurf tiene 8 cabañas, todas con balcón privado, TV, nevera, armario, ventilador, conexión Wi-Fi, aparcamiento y desayuno. Se encuentra a 50 metros de la playa de Cumbuco, donde encontramos restaurantes y tiendas de playa. También tenemos acuerdos con renta de autos, buggies y escuela de kitesurf.'
+                text: 'La posada Cumbuco KiteSurf tiene 8 cabañas, todas con balcón privado, TV, nevera, armario, ventilador, conexión Wi-Fi, aparcamiento y desayuno. Se encuentra a 50 metros de la playa de Cumbuco, donde encontramos restaurantes y tiendas de playa. También tenemos acuerdos con renta de autos, buggies y escuela de kitesurf.'
               },
               services: {
                 head: 'Nuestros Servicios',

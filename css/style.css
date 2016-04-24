@@ -2,3 +2,46 @@
 {
 	color: white !important;
 }
+
+.mainP{
+	-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+
+#ptEnt
+{
+	width: 100px;
+	height: 35px;
+	background: url(../img/ptFlag.png) no-repeat;
+	background-color: black;
+	background-position: 8px 1px;
+	background-size: 80px 30px;
+	opacity: 0.5;
+}
+
+#enEnt
+{
+	width: 100px;
+	height: 35px;
+	background: url(../img/enFlag.png) no-repeat;
+	background-color: black;
+	background-position: 8px 1px;
+	background-size: 80px 30px;
+	opacity: 0.5;
+}
+
+#esEnt
+{
+	width: 100px;
+	height: 35px;
+	background: url(../img/esFlag.png) no-repeat;
+	background-color: black;
+	background-position: 8px 1px;
+	background-size: 80px 30px;
+	opacity: 0.5;
+}
+
+#ptEnt:hover, #enEnt:hover, #esEnt:hover{
+	opacity: 0.9;
+}

@@ -32,13 +32,13 @@
 </head>
     <body>
         <!-- Header -->
-        <header id="top" class="header">
+        <header id="top" class="header bg1">
             <div class="text-vertical-center">
-                <h1 class="branco">Pousada Cumbuco KiteSurf</h1>
+                <h1 class="branco mainP">Pousada Cumbuco KiteSurf</h1>
                 <br>
-                <a href="#about" class="btn btn-dark btn-lg" id="ptEnt">Entre no site</a>
-                <a href="#about" class="btn btn-dark btn-lg" id="enEnt">Enter this website</a>
-                <a href="#about" class="btn btn-dark btn-lg" id="esEnt">Entre en el sitio</a>
+                <a href="#about" class="btn btn-dark btn-lg" id="ptEnt"></a>
+                <a href="#about" class="btn btn-dark btn-lg" id="enEnt"></a>
+                <a href="#about" class="btn btn-dark btn-lg" id="esEnt"></a>
             </div>
         </header>
 
@@ -59,6 +59,55 @@
         $("#esEnt").click(function() {
             window.location.href='indefault.html?lan=es';
         });
+
+
+        //Classes para transição das imagens
+    setInterval(function(){
+        var $header = $("header");
+
+        if ($header.hasClass("bg1") == true)
+        {
+            $header.removeClass("bg1");
+            $header.fadeOut("fast");
+            $header.fadeIn("fast");
+            $header.addClass("bg2");
+        }
+        else if ($header.hasClass("bg2") == true)
+        {
+            $header.removeClass("bg2");
+            $header.fadeOut("fast");
+            $header.fadeIn("fast");
+            $header.addClass("bg3");
+        }
+        else if ($header.hasClass("bg3") == true)
+        {
+            $header.removeClass("bg3");
+            $header.fadeOut("fast");
+            $header.fadeIn("fast");
+            $header.addClass("bg4");
+        }
+        else if ($header.hasClass("bg4") == true)
+        {
+            $header.removeClass("bg4");
+            $header.fadeOut("fast");
+            $header.fadeIn("fast");
+            $header.addClass("bg5");
+        }
+        else if ($header.hasClass("bg5") == true)
+        {
+            $header.removeClass("bg5");
+            $header.fadeOut("fast");
+            $header.fadeIn("fast");
+            $header.addClass("bg6");
+        }
+        else if ($header.hasClass("bg6") == true)
+        {
+            $header.removeClass("bg6");
+            $header.fadeOut("fast");
+            $header.fadeIn("fast");
+            $header.addClass("bg1");
+        }
+    }, 3000);
         </script>
     </body>
 </html>
