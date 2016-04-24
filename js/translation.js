@@ -20,7 +20,10 @@
                 services: 'Services',
                 gallery: 'Gallery',
                 language: 'Change language',
-                contact: 'Contact'
+                contact: 'Contact',
+                langEng: 'English',
+                langPt: 'Portuguese',
+                langEs: 'Spanish'
               }
             }
           },
@@ -39,7 +42,10 @@
                 services: 'Serviços',
                 gallery: 'Galeria',
                 language: 'Mudar idioma',
-                contact: 'Contato'
+                contact: 'Contato',
+                langEng: 'Inglês',
+                langPt: 'Português',
+                langEs: 'Espanhol'
               }
             }
           },
@@ -58,7 +64,10 @@
                 services: 'Servicios',
                 gallery: 'Galería',
                 language: 'Cambiar el idioma',
-                contact: 'Contacto'
+                contact: 'Contacto',
+                langEng: 'Inglés',
+                langPt: 'Portugués',
+                langEs: 'Español'
               }
             }
           }
