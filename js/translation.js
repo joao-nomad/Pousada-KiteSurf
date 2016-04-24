@@ -5,32 +5,60 @@
       i18next.init({
         lng: lang, // evtl. use language-detector https://github.com/i18next/i18next-browser-languageDetector
         resources: { // evtl. load via xhr https://github.com/i18next/i18next-xhr-backend
+          //INGLÊS
           en: {
             translation: {
               introDiv: {
                 head: 'Pousada Cumbuco KitSurf',
                 desc: 'Meet our hostel',
-                button: 'Page Two'
+                button: 'Take a tour'
+              },
+              menu: {
+                title: 'Main Menu',
+                home: 'Home',
+                about: 'About Us',
+                services: 'Services',
+                gallery: 'Gallery',
+                language: 'Change language',
+                contact: 'Contact'
               }
             }
           },
-
+          //PORTUGUÊS
           pt: {
             translation: {
               introDiv: {
                 head: 'Pousada Cumbuco KitSurf',
                 desc: 'Conheça a nossa pousada',
                 button: 'Faça um tour'
+              },
+              menu: {
+                title: 'Menu Principal',
+                home: 'Início',
+                about: 'Sobre Nós',
+                services: 'Serviços',
+                gallery: 'Galeria',
+                language: 'Mudar idioma',
+                contact: 'Contato'
               }
             }
           },
-
+          //ESPANHOL
           es: {
             translation: {
               introDiv: {
                 head: 'Pousada Cumbuco KitSurf',
                 desc: 'Conoce a nuestro posada',
-                button: 'Página dos'
+                button: 'Tienes um tour'
+              },              
+              menu: {
+                title: 'Menú Principal',
+                home: 'Inicio',
+                about: 'Sobre Nosotros',
+                services: 'Servicios',
+                gallery: 'Galería',
+                language: 'Cambiar el idioma',
+                contact: 'Contacto'
               }
             }
           }
