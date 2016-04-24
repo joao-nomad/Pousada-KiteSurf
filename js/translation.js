@@ -9,7 +9,7 @@
           en: {
             translation: {
               introDiv: {
-                head: 'Pousada Cumbuco KitSurf',
+                head: 'Cumbuco KitSurf Hostel',
                 desc: 'Meet our hostel',
                 button: 'Take a tour'
               },
@@ -24,6 +24,30 @@
                 langEng: 'English',
                 langPt: 'Portuguese',
                 langEs: 'Spanish'
+              },
+              about: {
+                head: 'Meet our hostel',
+                text: 'Cumbuco KiteSurf Hostel has 8 chalets, all with a private balcony, TV, fridge, closet, fan, Wi-Fi connection, parking spots and breakfast in the morning. It is located 50 meters from Cumbuco Beach, where you can find restaurants and beach huts. We also have agreements with car rental, buggies and kite surfing school.'
+              },
+              services: {
+                head: 'Our Services',
+                s1title: 'Service 1',
+                s1desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+                s2title: 'Service 2',
+                s2desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+                s3title: 'Service 3',
+                s3desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+                s4title: 'Service 4',
+                s4desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+              },
+              visit: 'Come visit us',
+              gallery: {
+                head: 'Our Picture Gallery',
+                bbutton: 'See more pictures'
+              },
+              footer: {
+                head: 'Where to find us',
+                avenue: 'Coqueiros Avenue, 405'
               }
             }
           },
@@ -46,6 +70,30 @@
                 langEng: 'Inglês',
                 langPt: 'Português',
                 langEs: 'Espanhol'
+              },
+              about: {
+                head: 'Conheça a nossa Pousada',
+                text: 'A Pousada Cumbuco KiteSurf conta com 8 chalés, todos com varanda privativa, TV, frigobar, armário, ventilador, Wi-Fi, estacionamento e café da manhã. Está localizada à 50 metros da Praia do Cumbuco, onde encontramos restaurantes e barracas de praia. Contamos também com convênios com aluguel da automóveis, bugues e escola de kitesurf.'
+              },
+              services: {
+                head: 'Nossos Serviços',
+                s1title: 'Serviço 1',
+                s1desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+                s2title: 'Serviço 2',
+                s2desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+                s3title: 'Serviço 3',
+                s3desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+                s4title: 'Serviço 4',
+                s4desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+              },
+              visit: 'Faça-nos uma visita',
+              gallery: {
+                head: 'Nossa Galeria de Fotos',
+                bbutton: 'Ver mais fotos'
+              },
+              footer: {
+                head: 'Onde nos encontrar',
+                avenue: 'Avenida dos Coqueiros, 405'
               }
             }
           },
@@ -53,7 +101,7 @@
           es: {
             translation: {
               introDiv: {
-                head: 'Pousada Cumbuco KitSurf',
+                head: 'Posada Cumbuco KitSurf',
                 desc: 'Conoce a nuestro posada',
                 button: 'Tienes um tour'
               },              
@@ -68,6 +116,30 @@
                 langEng: 'Inglés',
                 langPt: 'Portugués',
                 langEs: 'Español'
+              },
+              about: {
+                head: 'Conoce a nuestro Posada',
+                text: 'La posada Cumbuco KitSurf tiene 8 cabañas, todas con balcón privado, TV, nevera, armario, ventilador, conexión Wi-Fi, aparcamiento y desayuno. Se encuentra a 50 metros de la playa de Cumbuco, donde encontramos restaurantes y tiendas de playa. También tenemos acuerdos con renta de autos, buggies y escuela de kitesurf.'
+              },
+              services: {
+                head: 'Nuestros Servicios',
+                s1title: 'Servicio 1',
+                s1desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+                s2title: 'Servicio 2',
+                s2desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+                s3title: 'Servicio 3',
+                s3desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+                s4title: 'Servicio 4',
+                s4desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+              },
+              visit: 'Haznos una visita',
+              gallery: {
+                head: 'Nuestra Galería de Fotos',
+                bbutton: 'Ver más fotos'
+              },
+              footer: {
+                head: 'Dónde encontrarnos',
+                avenue: 'Avenida de los Coqueiros, 405'
               }
             }
           }
