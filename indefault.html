@@ -35,70 +35,27 @@
 
 <body>
     <button id="theMenu" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></button>
+    <button id="theClose" class="btn btn-dark btn-lg toggle">X</button>
     <div id="sideBar">
+        <p data-i18n="menu.title"></p><hr>
         <ul>
-            <li class="sidebar-brand">
-                <p data-i18n="menu.title"></p><hr>
+            <li>
+                <a href="#top" onclick = $("#menu-close").click(); data-i18n="menu.home" id="homeLink"></a>
             </li>
             <li>
-                <a href="#top" onclick = $("#menu-close").click(); data-i18n="menu.home"></a>
+                <a href="#about" onclick = $("#menu-close").click(); data-i18n="menu.about" id="aboutLink"></a>
             </li>
             <li>
-                <a href="#about" onclick = $("#menu-close").click(); data-i18n="menu.about"></a>
+                <a href="#services" onclick = $("#menu-close").click(); data-i18n="menu.services" id="serviceLink"></a>
             </li>
             <li>
-                <a href="#services" onclick = $("#menu-close").click(); data-i18n="menu.services"></a>
+                <a href="#portfolio" onclick = $("#menu-close").click(); data-i18n="menu.gallery" id="galleryLink"></a>
             </li>
             <li>
-                <a href="#portfolio" onclick = $("#menu-close").click(); data-i18n="menu.gallery"></a>
-            </li>
-            <!--li>
-                <a href="#" data-i18n="menu.language" id="changeLang"></a>
-                <ul style="display: none;" id="ulLang">
-                    <li><a href="indefault.html?lan=en" data-i18n="menu.langEng"></a></li>
-                    <li><a href="indefault.html?lan=pt" data-i18n="menu.langPt"></a></li>
-                    <li><a href="indefault.html?lan=es" data-i18n="menu.langEs"></a></li>
-                </ul>
-            </li-->
-            <li>
-                <a href="#contact" onclick = $("#menu-close").click(); data-i18n="menu.contact"></a>
+                <a href="#contact" onclick = $("#menu-close").click(); data-i18n="menu.contact" id="contactLink"></a>
             </li>
         </ul>
     </div>
-
-    <!-- Navigation>
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand">
-                <a href="#top"  onclick = $("#menu-close").click(); data-i18n="menu.title"></a>
-            </li>
-            <li>
-                <a href="#top" onclick = $("#menu-close").click(); data-i18n="menu.home"></a>
-            </li>
-            <li>
-                <a href="#about" onclick = $("#menu-close").click(); data-i18n="menu.about"></a>
-            </li>
-            <li>
-                <a href="#services" onclick = $("#menu-close").click(); data-i18n="menu.services"></a>
-            </li>
-            <li>
-                <a href="#portfolio" onclick = $("#menu-close").click(); data-i18n="menu.gallery"></a>
-            </li>
-            <li>
-                <a href="#" data-i18n="menu.language" id="changeLang"></a>
-                <ul style="display: none;" id="ulLang">
-                    <li><a href="indefault.html?lan=en" data-i18n="menu.langEng"></a></li>
-                    <li><a href="indefault.html?lan=pt" data-i18n="menu.langPt"></a></li>
-                    <li><a href="indefault.html?lan=es" data-i18n="menu.langEs"></a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#contact" onclick = $("#menu-close").click(); data-i18n="menu.contact"></a>
-            </li>
-        </ul>
-    </nav-->
 
     <!-- Header -->
     <header id="top" class="header bg1">
@@ -307,8 +264,8 @@
     <script src="js/jquery.js"></script>
 
     <!-- i18next Script -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/2.0.22/i18next.min.js" ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-i18next/0.0.14/i18next-jquery.min.js" ></script>
+    <script src="js/i18next.min.js" ></script>
+    <script src="js/i18next-jquery.min.js" ></script>
     <script src="js/translation.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
@@ -344,17 +301,7 @@
             }
         });
     });
-
-    //Transição dos idiomas no Menu Bar
-    $("#changeLang").click(function(e) {
-        if ($("#ulLang").css("display") == "none"){
-            $("#ulLang").show();
-        }
-        else{
-            $("#ulLang").hide();
-        }
-    });
-
+    
     //Classes para transição das imagens
     setInterval(function(){
         var $header = $("header");
@@ -407,6 +354,16 @@
     <script type="text/javascript">
     $(document).ready(function(){
        $('#gallery').gallerie();
+
+        $("#theClose, #homeLink, #aboutLink, #serviceLink, #galleryLink, #contactLink").click(function() {
+            $("#theMenu").animate({width:'toggle'}, -350);
+            $("#sideBar, #theClose").animate({width:'toggle'}, 350);
+        });
+
+        $("#theMenu").click(function() {
+            $("#sideBar, #theClose").animate({width:'toggle'}, -350);
+            $("#theMenu").animate({width:'toggle'}, 350);
+        });
     });
 </script>
 </body>
