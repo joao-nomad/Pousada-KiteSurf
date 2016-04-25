@@ -30,15 +30,15 @@
                 text: 'Cumbuco KiteSurf Hostel has 8 chalets, all with a private balcony, TV, fridge, closet, fan, Wi-Fi connection, parking spots and breakfast in the morning. It is located 50 meters from Cumbuco Beach, where you can find restaurants and beach huts. We also have agreements with car rental, buggies and kite surfing school.'
               },
               services: {
-                head: 'Our Services',
-                s1title: 'Service 1',
-                s1desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-                s2title: 'Service 2',
-                s2desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-                s3title: 'Service 3',
-                s3desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-                s4title: 'Service 4',
-                s4desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+                head: 'Some of Our Services',
+                s1title: 'Wi-Fi Connection',
+                s1desc: 'Connection for all of our guests in our chalets.',
+                s2title: 'Parking',
+                s2desc: 'Parking lot for all of our guests.',
+                s3title: 'Buggy Rent',
+                s3desc: 'Buggy Rent for during the stay.',
+                s4title: 'KiteSurf School',
+                s4desc: 'KiteSurf lessons for beginners.'
               },
               visit: 'Come visit us',
               gallery: {
@@ -76,15 +76,15 @@
                 text: 'A Pousada Cumbuco KiteSurf conta com 8 chalés, todos com varanda privativa, TV, frigobar, armário, ventilador, Wi-Fi, estacionamento e café da manhã. Está localizada à 50 metros da Praia do Cumbuco, onde encontramos restaurantes e barracas de praia. Contamos também com convênios com aluguel da automóveis, bugues e escola de kitesurf.'
               },
               services: {
-                head: 'Nossos Serviços',
-                s1title: 'Serviço 1',
-                s1desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-                s2title: 'Serviço 2',
-                s2desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-                s3title: 'Serviço 3',
-                s3desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-                s4title: 'Serviço 4',
-                s4desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+                head: 'Alguns de nossos Serviços',
+                s1title: 'Conexão Wi-Fi',
+                s1desc: 'Conexão para todos os hóspedes em nossos chalés.',
+                s2title: 'Estacionamento',
+                s2desc: 'Vagas para todos os nossos hóspedes.',
+                s3title: 'Aluguel de Bugues',
+                s3desc: 'Aluguel para o uso de bugues durante a estadia.',
+                s4title: 'Escola de KiteSurf',
+                s4desc: 'Convênio para lições de KiteSurf para iniciantes.'
               },
               visit: 'Faça-nos uma visita',
               gallery: {
@@ -122,15 +122,15 @@
                 text: 'La posada Cumbuco KiteSurf tiene 8 cabañas, todas con balcón privado, TV, nevera, armario, ventilador, conexión Wi-Fi, aparcamiento y desayuno. Se encuentra a 50 metros de la playa de Cumbuco, donde encontramos restaurantes y tiendas de playa. También tenemos acuerdos con renta de autos, buggies y escuela de kitesurf.'
               },
               services: {
-                head: 'Nuestros Servicios',
-                s1title: 'Servicio 1',
-                s1desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-                s2title: 'Servicio 2',
-                s2desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-                s3title: 'Servicio 3',
-                s3desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-                s4title: 'Servicio 4',
-                s4desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+                head: 'Algunos de Nuestros Servicios',
+                s1title: 'Conexión Wi-Fi',
+                s1desc: 'Conexión para todos los huéspedes en nuestras cabañas.',
+                s2title: 'Aparcamiento',
+                s2desc: 'Plazas de aparcamiento para todos nuestros huéspedes.',
+                s3title: 'Alquiler de Buggies',
+                s3desc: 'Alquiler para el uso de buggies durante la estancia.',
+                s4title: 'Escuela de KiteSurf',
+                s4desc: 'Acuerdos para lecciones de Kitesurf para principiantes.'
               },
               visit: 'Haznos una visita',
               gallery: {

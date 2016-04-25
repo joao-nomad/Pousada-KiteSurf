@@ -45,3 +45,51 @@
 #ptEnt:hover, #enEnt:hover, #esEnt:hover{
 	opacity: 0.9;
 }
+
+#wifi
+{
+	height: 100px;
+	width: 100px;
+	border: 0px;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	background: white url(../img/wifi.png) no-repeat;
+}
+
+#parking
+{
+	height: 100px;
+	width: 100px;
+	border: 0px;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	background: white url(../img/parking.png) no-repeat;
+}
+
+#buggies
+{
+	height: 100px;
+	width: 100px;
+	border: 0px;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	background: white url(../img/buggies.png) no-repeat;
+}
+
+#kitesurfing
+{
+	height: 100px;
+	width: 100px;
+	border: 0px;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	background: white url(../img/kitesurfing.png) no-repeat;
+}
