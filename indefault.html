@@ -34,7 +34,39 @@
 </head>
 
 <body>
-    <!-- Navigation -->
+    <button id="theMenu" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></button>
+    <div id="sideBar">
+        <ul>
+            <li class="sidebar-brand">
+                <p data-i18n="menu.title"></p><hr>
+            </li>
+            <li>
+                <a href="#top" onclick = $("#menu-close").click(); data-i18n="menu.home"></a>
+            </li>
+            <li>
+                <a href="#about" onclick = $("#menu-close").click(); data-i18n="menu.about"></a>
+            </li>
+            <li>
+                <a href="#services" onclick = $("#menu-close").click(); data-i18n="menu.services"></a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick = $("#menu-close").click(); data-i18n="menu.gallery"></a>
+            </li>
+            <!--li>
+                <a href="#" data-i18n="menu.language" id="changeLang"></a>
+                <ul style="display: none;" id="ulLang">
+                    <li><a href="indefault.html?lan=en" data-i18n="menu.langEng"></a></li>
+                    <li><a href="indefault.html?lan=pt" data-i18n="menu.langPt"></a></li>
+                    <li><a href="indefault.html?lan=es" data-i18n="menu.langEs"></a></li>
+                </ul>
+            </li-->
+            <li>
+                <a href="#contact" onclick = $("#menu-close").click(); data-i18n="menu.contact"></a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Navigation>
     <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
@@ -66,7 +98,7 @@
                 <a href="#contact" onclick = $("#menu-close").click(); data-i18n="menu.contact"></a>
             </li>
         </ul>
-    </nav>
+    </nav-->
 
     <!-- Header -->
     <header id="top" class="header bg1">
@@ -286,8 +318,8 @@
     <script>
     // Closes the sidebar menu
     $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
+        //e.preventDefault();
+        //$("#sidebar-wrapper").toggleClass("active");
     });
 
     // Opens the sidebar menu
@@ -374,7 +406,7 @@
     <script src="js/jquery.gallerie.js"></script>
     <script type="text/javascript">
     $(document).ready(function(){
-        $('#gallery').gallerie();
+       $('#gallery').gallerie();
     });
 </script>
 </body>

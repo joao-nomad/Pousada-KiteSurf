@@ -99,3 +99,31 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+
+#theMenu{
+	position: fixed;
+    z-index: 200;
+    margin-top: 0px;
+    right: -5px;
+}
+
+#sideBar{
+	background-color: black;
+	opacity: 0.8;
+    display: block;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 203;
+    margin-top: 0px;
+    right: -1px;
+}
+
+#sideBar p, #sideBar a{
+	color: white;
+	font-size: 17px;
+}
+
+#sideBar li{
+	list-style-type: none;
+}
