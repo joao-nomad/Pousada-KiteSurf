@@ -93,3 +93,9 @@
 	border-bottom-right-radius: 50px;
 	background: white url(../img/kitesurfing.png) no-repeat;
 }
+
+#gallery 
+{
+	margin-left: auto;
+	margin-right: auto;
+}

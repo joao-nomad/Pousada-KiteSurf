@@ -17,6 +17,8 @@
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/gallerie.css"/>
+    <link rel="stylesheet" type="text/css" href="css/gallerie-effects.css"/>
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -172,35 +174,29 @@
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h2 data-i18n="gallery.head"></h2>
                     <hr class="small">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
-                                </a>
-                            </div>
-                        </div>
+                        
+                    <div id="gallery">
+                    <a href="example-images/20110813_184411.jpg"><img src="example-images/thumbs/20110813_184411.jpg"/></a>
+                    <a href="example-images/20110902_163207.jpg"><img src="example-images/thumbs/20110902_163207.jpg"/></a>
+                    <a href="example-images/20110902_164525.jpg"><img src="example-images/thumbs/20110902_164525.jpg"/></a>
+                    <a href="example-images/20110902_171016.jpg"><img src="example-images/thumbs/20110902_171016.jpg"/></a>
+                    <a href="example-images/20110903_171216.jpg"><img src="example-images/thumbs/20110903_171216.jpg"/></a>
+                    <a href="example-images/20110813_184411.jpg"><img src="example-images/thumbs/20110813_184411.jpg"/></a>
+                    <a href="example-images/20110902_163207.jpg"><img src="example-images/thumbs/20110902_163207.jpg"/></a>
+                    <a href="example-images/20110902_164525.jpg"><img src="example-images/thumbs/20110902_164525.jpg"/></a>
+                    <a href="example-images/20110902_171016.jpg"><img src="example-images/thumbs/20110902_171016.jpg"/></a>
+                    <a href="example-images/20110903_171216.jpg"><img src="example-images/thumbs/20110903_171216.jpg"/></a>
+                    <a href="example-images/20110813_184411.jpg"><img src="example-images/thumbs/20110813_184411.jpg"/></a>
+                    <a href="example-images/20110902_163207.jpg"><img src="example-images/thumbs/20110902_163207.jpg"/></a>
+                    <a href="example-images/20110902_164525.jpg"><img src="example-images/thumbs/20110902_164525.jpg"/></a>
+                    <a href="example-images/20110902_171016.jpg"><img src="example-images/thumbs/20110902_171016.jpg"/></a>
+                    <a href="example-images/20110903_171216.jpg"><img src="example-images/thumbs/20110903_171216.jpg"/></a>
+                    <a href="example-images/20110813_184411.jpg"><img src="example-images/thumbs/20110813_184411.jpg"/></a>
+                    <a href="example-images/20110902_163207.jpg"><img src="example-images/thumbs/20110902_163207.jpg"/></a>
+                    <a href="example-images/20110902_164525.jpg"><img src="example-images/thumbs/20110902_164525.jpg"/></a>
+                    <a href="example-images/20110902_171016.jpg"><img src="example-images/thumbs/20110902_171016.jpg"/></a>
+                    <a href="example-images/20110903_171216.jpg"><img src="example-images/thumbs/20110903_171216.jpg"/></a>
+                    <a href="example-images/20110903_171216.jpg"><img src="example-images/thumbs/20110903_171216.jpg"/></a>
                     </div>
                     <!-- /.row (nested) -->
                     <a href="#" class="btn btn-dark" data-i18n="gallery.bbutton"></a>
@@ -367,5 +363,11 @@
         }
     }, 4000);
     </script>
+    <script src="js/jquery.gallerie.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('#gallery').gallerie();
+    });
+</script>
 </body>
 </html>
