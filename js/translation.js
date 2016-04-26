@@ -27,7 +27,7 @@
               },
               about: {
                 head: 'Meet our hostel',
-                text: 'Cumbuco KiteSurf Hostel has 8 chalets, all with a private balcony, TV, fridge, closet, fan, Wi-Fi connection, parking spots and breakfast in the morning. It is located 50 meters from Cumbuco Beach, where you can find restaurants and beach huts. We also have agreements with car rental, buggies and kite surfing school.'
+                text: 'Cumbuco KiteSurf Hostel has 8 chalets, all with a private balcony, TV, fridge, closet, fan, Wi-Fi connection, parking spots and breakfast in the morning. It is located 50 meters from Cumbuco Beach, where you can find restaurants and beach huts. We also have agreements for car rental, buggies and kite surfing school.'
               },
               services: {
                 head: 'Some of Our Services',
@@ -73,7 +73,7 @@
               },
               about: {
                 head: 'Conheça a nossa Pousada',
-                text: 'A Pousada Cumbuco KiteSurf conta com 8 chalés, todos com varanda privativa, TV, frigobar, armário, ventilador, Wi-Fi, estacionamento e café da manhã. Está localizada à 50 metros da Praia do Cumbuco, onde encontramos restaurantes e barracas de praia. Contamos também com convênios com aluguel da automóveis, bugues e escola de kitesurf.'
+                text: 'A Pousada Cumbuco KiteSurf conta com 8 chalés, todos com varanda privativa, TV, frigobar, armário, ventilador, Wi-Fi, estacionamento e café da manhã. Está localizada à 50 metros da Praia do Cumbuco, onde encontramos restaurantes e barracas de praia. Contamos também com convênios para aluguel de automóveis, bugues e escola de kitesurf.'
               },
               services: {
                 head: 'Alguns de nossos Serviços',
